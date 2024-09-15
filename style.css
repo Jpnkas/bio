@@ -1,0 +1,39 @@
+body
+{
+	background-color: grey;
+}
+h1
+{
+	font-size: 200px;
+	text-align: center;
+}
+
+
+@media (min-width:319px) and (max-width:480px){
+	body
+	{
+		background-color: red;
+	}
+	h1
+	{
+		font-size: 45px;
+	}
+}
+@media (min-width:480px) and (max-width:1280px){
+	body{
+		background-color: green;
+	}
+	h1
+	{
+		font-size: 60px;
+	}
+
+	@media (min-width:1201px) and (min-width:1600px){
+		body{
+			background-color: blue;
+		}
+		h1
+		{
+			font-size: 75px;
+		}
+	}
